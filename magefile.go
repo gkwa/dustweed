@@ -19,7 +19,7 @@ import (
 func Build() error {
 	mg.Deps(InstallDeps)
 	fmt.Println("Building...")
-	cmd := exec.Command("go", "build", "-o", "dustweed", ".")
+	cmd := exec.Command("go", "build", "-o", "dustweed.exe", ".")
 	return cmd.Run()
 }
 
