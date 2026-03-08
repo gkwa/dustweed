@@ -3,8 +3,8 @@ module github.com/taylormonacelli/dustweed
 go 1.20
 
 require (
-	github.com/go-ole/go-ole v1.2.6
+	github.com/go-ole/go-ole v1.3.0
 	github.com/magefile/mage v1.16.0
 )
 
-require golang.org/x/sys v0.0.0-20190916202348-b4ddaad3f8a3 // indirect
+require golang.org/x/sys v0.1.0 // indirect
